@@ -1,6 +1,6 @@
 function startGame() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q1.jpeg" alt="Question 1 photo">
+        <img class="question-photo" src="q1.jpeg" alt="Question 1 photo">
 
         <h2>Question 1</h2>
 
@@ -26,7 +26,8 @@ function answer1(correct) {
 
 function question2() {
     document.querySelector(".game").innerHTML = `
-<img class="question-photo q2-photo" src="images/q2.jpeg" alt="Question 2 photo">
+        <img class="question-photo q2-photo" src="q2.jpeg" alt="Question 2 photo">
+
         <h2>Question 2</h2>
 
         <p>When and where was our first proper date?</p>
@@ -51,7 +52,7 @@ function answer2(correct) {
 
 function question3() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q3.jpeg" alt="Question 3 photo">
+        <img class="question-photo" src="q3.jpeg" alt="Question 3 photo">
 
         <h2>Question 3</h2>
 
@@ -77,9 +78,10 @@ function answer3(correct) {
 
 function question4() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q4.jpeg" alt="Question 4 photo">
+        <img class="question-photo" src="q4.jpeg" alt="Question 4 photo">
 
         <h2>Question 4</h2>
+
         <p>Where did we take our first proper photo together?</p>
 
         <button onclick="answer4(false)">Chaitanya Restaurant</button>
@@ -102,9 +104,10 @@ function answer4(correct) {
 
 function question5() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q5.jpg" alt="Question 5 photo">
+        <img class="question-photo" src="q5.JPG" alt="Question 5 photo">
 
         <h2>Question 5</h2>
+
         <p>What is one random memory from our first year that you still remember clearly?</p>
 
         <input type="text" id="answer5" placeholder="Type your answer...">
@@ -133,7 +136,7 @@ function answer5() {
 
 function question6() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q6.jpeg" alt="Question 6 photo">
+        <img class="question-photo" src="q6.jpeg" alt="Question 6 photo">
 
         <h2>Question 6</h2>
 
@@ -159,7 +162,7 @@ function answer6(correct) {
 
 function question7() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q7.jpeg" alt="Question 7 photo">
+        <img class="question-photo" src="q7.jpeg" alt="Question 7 photo">
 
         <h2>Question 7</h2>
 
@@ -185,7 +188,7 @@ function answer7(correct) {
 
 function question8() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q8.jpeg" alt="Question 8 photo">
+        <img class="question-photo" src="q8.jpeg" alt="Question 8 photo">
 
         <h2>Question 8</h2>
 
@@ -211,7 +214,7 @@ function answer8(correct) {
 
 function question9() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q9.jpg" alt="Question 9 photo">
+        <img class="question-photo" src="q9.JPG" alt="Question 9 photo">
 
         <h2>Question 9</h2>
 
@@ -233,7 +236,7 @@ function answer9() {
 
 function question10() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q10.jpg" alt="Question 10 photo">
+        <img class="question-photo" src="q10.JPG" alt="Question 10 photo">
 
         <h2>Question 10</h2>
 
@@ -259,7 +262,7 @@ function answer10(correct) {
 
 function question11() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q11.jpeg" alt="Question 11 photo">
+        <img class="question-photo" src="q11.jpeg" alt="Question 11 photo">
 
         <h2>Question 11</h2>
 
@@ -285,7 +288,7 @@ function answer11(correct) {
 
 function question12() {
     document.querySelector(".game").innerHTML = `
-        <img class="question-photo" src="images/q12.jpeg" alt="Question 12 photo">
+        <img class="question-photo" src="q12.jpeg" alt="Question 12 photo">
 
         <h2>Question 12</h2>
 
